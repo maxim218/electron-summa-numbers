@@ -1,0 +1,40 @@
+body {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    background: rgb(84, 84, 190);
+    padding: 25px;
+}
+
+.textField {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 15px;
+    outline: none;
+}
+
+#getResultBox {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 150px;
+    background: rgb(98, 173, 98);
+    cursor: pointer;
+    color: black;
+    outline: none;
+}
+
+#getResultBox:hover {
+    background: rgb(68, 90, 68);
+    color: white;
+}
+
+#resultLabel {
+    color: greenyellow;
+}

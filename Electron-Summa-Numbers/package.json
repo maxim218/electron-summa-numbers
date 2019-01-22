@@ -1,0 +1,17 @@
+{
+  "name": "summa-numbers",
+  "version": "1.2.3",
+  "description": "Summa numbers project",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "ready": "electron-packager ."
+  },
+  "keywords": [],
+  "author": "Maxim Kolotovkin",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.1",
+    "electron-packager": "^13.0.1"
+  }
+}
